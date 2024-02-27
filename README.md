@@ -17,15 +17,16 @@ $ cd SBNAF_IRDB
 Then:
 
 ```shell
-virtualenv sbnaf
-source sbnaf/bin/activate
-pip install -r requirements.txt
+$ virtualenv sbnaf
+$ source sbnaf/bin/activate
+$ pip install -r requirements.txt
+$ cp progress.py sbnaf/lib/python3.11/site-packages/
 ```
 
 ## Running
 
 ```shell
-python irdatabase.1.2.py --help
+$ python irdatabase.1.2.py --help
 ```
 
 There are two command line arguments that must be provided:
